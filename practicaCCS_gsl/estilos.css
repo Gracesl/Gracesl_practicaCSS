@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    max-width: 95%;
+    margin: auto;
+}
+
+header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+header, .cardbenefits ,.logos, .menu ul, .location {
+    display: flex;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;
+}
+.logos {
+   justify-content: center;
+   margin: 2rem;
+}
+
+.logobrand img {
+    width: 15vw;
+    padding: 1.3rem;
+}
+
+main {
+    position: relative;
+    border: 1px solid;
+    
+}
+
+.logo {
+    color:#0000FF;
+    font-size: larger;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li:hover {
+    color: white;
+    background-color: #0a0a9a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.location {
+    background-color: rgba(0,254,254,0.3);
+    border-radius: 5px;
+    box-shadow: 4px lightslategray;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 8rem;
+}
+
+h3,h4{
+    color: #141442;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 3rem;
+    
+}
+
+h3 + p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.2rem;
+}
+
+i{
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+}
+
+.location {
+    margin-left: 6rem;
+}
+
+.location div {
+    margin: 1rem;
+    
+}
+
+.mainimg {
+    max-width: 50%;
+   
+}
+
+.maintext {
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 9em;
+}
+
+.maintext2 {
+    display: flex;
+}
+
+.maintext3 {
+    margin-top: 1rem;
+    margin-left: 0.5em;
+}
+
+.submit {
+    color: white;
+    background-color: #0a0a9a;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.vaccine {
+    margin: 2rem;
+}
+
+.wsvaccine {
+    width: 50%;
+}
+
+.cardb {
+    margin: 2rem;
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.img_prep img {
+    width: 50%;
+    
+}
+
+.preparations {
+    display: flex;
+    justify-content: flex-start
+}
+
+.textprep h4 {
+    font-size: 1.5rem;
+}
+
+.textprep {
+    
+    
+    
+}
+
+.imagenprep {
+    padding-top: 3.5rem;
+    background-color: white;
+    padding: 2rem;
+}
+
+.img_prep {
+   
+    display: flex;
+    
+    
+}
+
+.advice {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.5rem;
+    border: 1px solid #ebeaea;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+
+
+.imgycontact {
+    display: flex;
+}
+
+.ccontact {
+    display: flex;
+}
+
+.callnow {
+    padding: 10px;
+    margin: 10px;
+}
+
+.cardcontact {
+    border: 1px solid #ebeaea;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.cardscon {
+    display: flex;
+}
+
+.contactimg img {
+    width: 50%;
+    margin-left: 9rem;
+}
+
+footer,.acs {
+    display: flex;
+}
+
+footer {
+    background-color: #a9a9c9;
+}
+
+
+.vaccination {
+    width: 50%;
+}
+
+.abt, .company, .support {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+
